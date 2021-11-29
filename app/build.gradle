@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
     // run tests with JUnit 5
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.5.2'

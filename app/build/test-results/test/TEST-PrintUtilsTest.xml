@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PrintUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-29T11:09:34" hostname="dhcp-vl2041-23697.eduroam.cornell.edu" time="2.857">
+<testsuite name="PrintUtilsTest" tests="2" skipped="2" failures="0" errors="0" timestamp="2021-11-29T12:27:53" hostname="Stevens-MacBook-Pro-2.local" time="0.001">
   <properties/>
-  <testcase name="testFetchTicket()" classname="PrintUtilsTest" time="1.813"/>
-  <testcase name="testPagination()" classname="PrintUtilsTest" time="1.043"/>
+  <testcase name="testFetchTicket()" classname="PrintUtilsTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPagination()" classname="PrintUtilsTest" time="0.0">
+    <skipped/>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

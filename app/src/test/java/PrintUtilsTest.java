@@ -1,9 +1,9 @@
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.util.InputMismatchException;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -15,6 +15,7 @@ public class PrintUtilsTest {
     String token = "";
 
     /** tests printing ticket table */
+    @Disabled
     @Test
     void testPagination() throws IOException, ParseException, NoSuchFieldException {
         APIUtil apiUtil = new APIUtil();
@@ -35,6 +36,7 @@ public class PrintUtilsTest {
     }
 
     /** tests fetching a single ticket */
+    @Disabled
     @Test
     void testFetchTicket() throws IOException, ParseException, NoSuchFieldException {
         APIUtil apiUtil = new APIUtil();

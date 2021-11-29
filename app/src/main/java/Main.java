@@ -51,7 +51,5 @@ public class Main {
         } catch (NumberFormatException | NoSuchFieldException e) {
             System.out.println("Invalid input.");
         }
-
-        sc.close();
     }
 }

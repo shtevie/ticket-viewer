@@ -1,5 +1,6 @@
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -15,6 +16,8 @@ public class APIUtilTest {
     String email = "";
     String token = "";
 
+    /** test to make sure all tickets are fetched */
+    @Disabled
     @Test
     void testGetTicketsSize() throws IOException, ParseException {
         APIUtil apiUtil = new APIUtil();
@@ -22,6 +25,8 @@ public class APIUtilTest {
         assertEquals(map.size(), 101);
     }
 
+    /** test error handling */
+    @Disabled
     @Test
     void testGetTicketsException() {
         APIUtil apiUtil = new APIUtil();
